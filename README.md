@@ -26,13 +26,12 @@ pip install -r requirements.txt
 ```
 ### 3. Configura le credenziali
 
-#### Opzione A: Usando config.py (consigliato)
+#### Opzione A: Sostituisci le tue credenziali di spotify in app.py':
+   
+   # Ottienili da: https://developer.spotify.com/dashboard
+   SPOTIFY_CLIENT_ID = 'inserisci_qui_il_tuo_client_id'
+   SPOTIFY_CLIENT_SECRET = 'inserisci_qui_il_tuo_client_secret'
 
-```bash
-cp config.example.py config.py
-```
-
-Poi modifica `config.py` inserendo le tue credenziali Spotify.
 
 #### Opzione B: Usando variabili d'ambiente
 
