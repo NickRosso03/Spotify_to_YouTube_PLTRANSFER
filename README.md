@@ -28,10 +28,11 @@ pip install -r requirements.txt
 
 #### Opzione A: Sostituisci le tue credenziali di spotify in app.py':
    
-   # Ottienili da: https://developer.spotify.com/dashboard
+   Ottienili da: https://developer.spotify.com/dashboard
+   ...
    SPOTIFY_CLIENT_ID = 'inserisci_qui_il_tuo_client_id'
    SPOTIFY_CLIENT_SECRET = 'inserisci_qui_il_tuo_client_secret'
-
+   ...
 
 #### Opzione B: Usando variabili d'ambiente
 
